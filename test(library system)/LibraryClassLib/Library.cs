@@ -29,6 +29,12 @@ namespace LibraryClassLib
             return result;
         }
 
+        public List<Book> OutputBooks()
+        {
+            List<Book> result = new List<Book>();
+            result.AddRange(Books);
+            return result;
+        }
 
     }
 }
