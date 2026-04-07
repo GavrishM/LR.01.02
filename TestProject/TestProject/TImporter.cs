@@ -4,10 +4,10 @@ using static ClassLibrary.Importer;
 namespace TestProject
 {
     [TestClass]
-    public sealed class ImporterTest
+    public sealed class TImporter
     {
         [TestMethod]
-        public void ImportTest()
+        public void TImport()
         {
             string path;
             List<Sale> sales = new List<Sale>();
